@@ -1,0 +1,1161 @@
+
+<!DOCTYPE html>
+<html lang="id-ID">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <meta name="format-detection" content="telephone=no, date=no, address=no, email=no, url=no" />
+  <meta name="theme-color" content="#6d28d9" />
+  <meta name="color-scheme" content="light" />
+  <meta name="application-name" content="Jasun Marju • Portofolio Resmi" />
+  <meta name="apple-mobile-web-app-title" content="Jasun Marju" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="bingbot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  
+
+  <link rel="canonical" href="https://jasunmarju.id/" />
+  
+  <link rel="icon" type="image/png" href="asset/jasun2.jpg">
+
+  <title>Jasun Marju | Portofolio Resmi • Profil, Karier, Lagu Populer & Review</title>
+  <meta name="description" content="Portofolio resmi Jasun Marju (Jasun Dwi Irawan): profil lengkap, perjalanan karier, gaya musik, lagu-lagu populer, kolaborasi, galeri foto, review penggemar, dan pemutar Spotify." />
+  <meta name="keywords" content="Jasun Marju, Jasun Dwi Irawan, Pop Jawa, Dangdut Koplo, Campursari Modern, Najis, Tanpo Tresnamu, Dewasa, Sampek Tuwek, Denok, Raiso Ngapusi 2, Pelampiasan 2, Pamit Rabi, Tak Tunggu Balimu, Tunggal Eka, Kasunyatan, DC Production" />
+  <meta name="author" content="jasunmarju.vercel.app" />
+  <meta name="publisher" content="jasunmarju.vercel.app" />
+  <meta name="language" content="id" />
+
+  <link rel="icon" href="asset/jasun2.jpg" type="image/png" />
+  <link rel="apple-touch-icon" href="asset/jasun2.jpg" />
+  <meta name="msapplication-TileImage" content="asset/jasun2.jpg" />
+  <meta name="msapplication-TileColor" content="#6d28d9" />
+
+  <meta property="og:locale" content="id_ID" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Jasun Marju • Portofolio Resmi" />
+  <meta property="og:title" content="Jasun Marju | Portofolio Resmi" />
+  <meta property="og:description" content="Profil lengkap, karier, lagu populer, kolaborasi, galeri foto, dan pemutar Spotify Denny Caknan." />
+  <meta property="og:url" content="https://jasunmarju.vercel.app/" />
+  <meta property="og:image" content="https://jasunmarju.id/asset/jasun.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Jasun Marju | Portofolio Resmi" />
+  <meta name="twitter:description" content="Profil lengkap, karier, lagu populer, kolaborasi, galeri foto, dan pemutar Spotify." />
+  <meta name="twitter:image" content="https://jasunmarju.id/asset/jasun1.jpg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <style>
+    :root{
+      --paper:#ffffff;
+      --paper-2:#f7f6f3;
+      --frame-bg:#eae7e1;
+      --ink:#37352f;
+      --ink-70:rgba(55,53,47,.72);
+      --ink-55:rgba(55,53,47,.55);
+      --line:rgba(55,53,47,.12);
+      --line-soft:rgba(55,53,47,.08);
+      --accent:#b35a06;
+      --accent-ink:#9a4e05;
+      --accent-bg:#fbecdd;
+      --accent-line:rgba(179,90,6,.28);
+      --r-sm:6px;
+      --r-md:9px;
+      --r-lg:13px;
+      --container:840px;
+    }
+
+    *{ box-sizing: border-box; }
+    html, body { height: 100%; }
+    body{
+      margin:0;
+      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background:
+        radial-gradient(900px 500px at 20% 10%, rgba(109,40,217,.12), transparent 60%),
+        radial-gradient(900px 500px at 90% 15%, rgba(167,139,250,.14), transparent 60%),
+        radial-gradient(900px 500px at 30% 90%, rgba(109,40,217,.07), transparent 60%),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    a{ color: inherit; text-decoration: none; }
+    img{ max-width: 100%; display: block; }
+
+    .container{
+      width: min(92%, var(--container));
+      margin: 0 auto;
+    }
+
+    /* =========================
+        NAV
+    ========================== */
+    header{
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      backdrop-filter: blur(12px);
+      background: rgba(255,255,255,.72);
+      border-bottom: 1px solid rgba(28,18,54,.08);
+    }
+    .nav{
+      display:flex;
+      align-items:center;
+      justify-content: space-between;
+      padding: 14px 0;
+      gap: 14px;
+    }
+    .brand{
+      display:flex;
+      align-items:center;
+      gap: 12px;
+      min-width: 220px;
+    }
+    .brand img{
+      width: 40px; height: 40px;
+      border-radius: 12px;
+      background: rgba(28,18,54,.08);
+      border: 1px solid rgba(28,18,54,.10);
+      box-shadow: 0 8px 20px rgba(109,40,217,.12);
+      object-fit: contain;
+      padding: 6px;
+    }
+    .brand .title{
+      display:flex;
+      flex-direction: column;
+      gap: 2px;
+      line-height: 1.1;
+    }
+    .brand .title strong{
+      font-size: 14px;
+      letter-spacing: .2px;
+    }
+
+    .navlinks{
+      display:flex;
+      gap: 14px;
+      align-items:center;
+      justify-content: center;
+      flex: 1;
+    }
+    .navlinks a{
+      font-size: 13px;
+      color: var(--muted);
+      padding: 9px 10px;
+      border-radius: 12px;
+      transition: .2s ease;
+      border: 1px solid transparent;
+      white-space: nowrap;
+    }
+    .navlinks a:hover{
+      color: var(--text);
+      border-color: rgba(28,18,54,.12);
+      background: rgba(28,18,54,.05);
+    }
+
+    .navcta{
+      display:flex;
+      gap: 10px;
+      align-items:center;
+      justify-content: flex-end;
+      min-width: 220px;
+    }
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap: 10px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      border: 1px solid rgba(28,18,54,.14);
+      background: rgba(28,18,54,.06);
+      color: var(--text);
+      font-weight: 600;
+      font-size: 13px;
+      cursor: pointer;
+      transition: .2s ease;
+      user-select: none;
+    }
+    .btn:hover{
+      transform: translateY(-1px);
+      background: rgba(28,18,54,.08);
+      border-color: rgba(28,18,54,.20);
+    }
+    .btn.primary{
+      background: linear-gradient(135deg, rgba(109,40,217,.95), rgba(167,139,250,.85));
+      border-color: rgba(255,255,255,.30);
+      color: #fff;
+      box-shadow: 0 14px 30px rgba(109,40,217,.22);
+    }
+    .btn.primary:hover{ filter: brightness(1.03); }
+
+    /* Mobile nav */
+    .burger{
+      display:none;
+      width: 42px;
+      height: 42px;
+      border-radius: 14px;
+      border: 1px solid rgba(28,18,54,.14);
+      background: rgba(28,18,54,.06);
+      cursor:pointer;
+      transition: .2s ease;
+    }
+    .burger:hover{ background: rgba(28,18,54,.08); }
+    .burger span{
+      display:block;
+      width: 18px;
+      height: 2px;
+      background: rgba(28,18,54,.85);
+      margin: 6px auto;
+      border-radius: 10px;
+    }
+
+    .mobileMenu{
+      display:none;
+      padding: 10px 0 16px;
+      border-top: 1px solid rgba(28,18,54,.08);
+    }
+    .mobileMenu.is-open{ display:block; }
+    .mobileMenu .grid{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .mobileMenu a{
+      padding: 12px 12px;
+      border-radius: 14px;
+      border: 1px solid rgba(28,18,54,.12);
+      background: rgba(28,18,54,.05);
+      color: var(--text);
+      font-weight: 600;
+      font-size: 13px;
+    }
+
+    /* =========================
+        HERO
+    ========================== */
+    .hero{
+      padding: 44px 0 18px;
+    }
+    .heroGrid{
+      display:grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap: 18px;
+      align-items: stretch;
+    }
+    .card{
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius2);
+      box-shadow: var(--shadow);
+    }
+    .heroLeft{
+      padding: 26px;
+      position: relative;
+      overflow: hidden;
+      min-height: 360px;
+    }
+    .glow{
+      position:absolute;
+      inset: -120px -120px auto auto;
+      width: 240px;
+      height: 240px;
+      background: radial-gradient(circle at 30% 30%, rgba(167,139,250,.55), transparent 60%);
+      filter: blur(2px);
+      opacity: .9;
+      pointer-events:none;
+    }
+    .heroTop{
+      display:flex;
+      align-items:center;
+      gap: 14px;
+      margin-bottom: 14px;
+    }
+    .heroTop .logoBig{
+      width: 56px; height: 56px;
+      border-radius: 18px;
+      border: 1px solid rgba(28,18,54,.14);
+      background: rgba(28,18,54,.06);
+      padding: 8px;
+      object-fit: contain;
+    }
+    .heroTitle h1{
+      margin:0;
+      font-size: clamp(24px, 3vw, 36px);
+      letter-spacing: -0.6px;
+      line-height: 1.1;
+    }
+    .heroTitle p{
+      margin: 8px 0 0;
+      color: var(--muted);
+      font-weight: 500;
+      max-width: 58ch;
+    }
+
+    .badges{
+      display:flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 14px 0 18px;
+    }
+    .badge{
+      display:inline-flex;
+      align-items:center;
+      gap: 8px;
+      padding: 10px 12px;
+      border-radius: 999px;
+      border: 1px solid rgba(28,18,54,.12);
+      background: rgba(28,18,54,.05);
+      color: rgba(28,18,54,.86);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .2px;
+      white-space: nowrap;
+    }
+    .dot{
+      width: 8px; height: 8px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, var(--primary), var(--primary2));
+      box-shadow: 0 0 0 4px rgba(109,40,217,.18);
+    }
+
+    .heroActions{
+      display:flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 8px;
+    }
+
+    .heroRight{
+      padding: 18px;
+      display:flex;
+      flex-direction: column;
+      gap: 12px;
+      min-height: 360px;
+    }
+    .slider{
+      position: relative;
+      border-radius: var(--radius2);
+      overflow: hidden;
+      border: 1px solid rgba(28,18,54,.12);
+      background: rgba(28,18,54,.05);
+      flex: 1;
+      min-height: 250px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
+    .slider img{
+      width: 100%;
+      height: 100%;
+      object-fit: contain; /* TIDAK TERPOTONG */
+      background: rgba(28,18,54,.06);
+      transition: opacity .7s ease;
+      opacity: 1;
+    }
+
+    /* =========================
+        SECTIONS
+    ========================== */
+    section{ padding: 18px 0; }
+    .sectionHead{
+      display:flex;
+      align-items:flex-end;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+    .sectionHead h2{
+      margin:0;
+      font-size: 18px;
+      letter-spacing: -0.2px;
+    }
+    .sectionHead p{
+      margin:0;
+      color: var(--muted);
+      font-size: 13px;
+      max-width: 70ch;
+    }
+
+    .grid2{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+
+    .contentCard{ padding: 18px; }
+    .contentCard h3{
+      margin:0 0 8px;
+      font-size: 15px;
+      letter-spacing: -0.2px;
+    }
+    .contentCard p, .contentCard li{
+      color: rgba(28,18,54,.82);
+      font-size: 13.5px;
+    }
+    .contentCard ul{
+      margin: 10px 0 0;
+      padding-left: 18px;
+    }
+
+    /* =========================
+        SPOTIFY TABLE
+    ========================== */
+    .musicWrap{ padding: 18px; }
+    .musicTable{
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      overflow: hidden;
+      border-radius: var(--radius2);
+      border: 1px solid rgba(28,18,54,.12);
+      background: rgba(28,18,54,.04);
+    }
+    .musicTable th, .musicTable td{
+      padding: 12px;
+      vertical-align: middle;
+      border-bottom: 1px solid rgba(28,18,54,.10);
+    }
+    .musicTable th{
+      text-align: left;
+      font-size: 12px;
+      color: rgba(28,18,54,.86);
+      letter-spacing: .2px;
+      background: rgba(28,18,54,.05);
+    }
+    .musicTable td{
+      font-size: 13px;
+      color: rgba(28,18,54,.82);
+    }
+    .musicTable tr:last-child td{ border-bottom: none; }
+    .songTitle{
+      font-weight: 800;
+      color: rgba(28,18,54,.92);
+      letter-spacing: -.1px;
+    }
+    .spotifyFrame{
+      width: 100%;
+      border: 0;
+      height: 80px;
+      border-radius: 14px;
+      overflow: hidden;
+      background: rgba(28,18,54,.05);
+    }
+
+    /* =========================
+        REVIEWS SLIDER
+    ========================== */
+    .reviewWrap{ padding: 18px; overflow: hidden; }
+    .reviewViewport{
+      position: relative;
+      border-radius: var(--radius2);
+      border: 1px solid rgba(28,18,54,.12);
+      background: rgba(28,18,54,.04);
+      padding: 14px;
+    }
+    .reviewTrack{
+      display:flex;
+      gap: 12px;
+      transition: transform 900ms ease;
+      will-change: transform;
+    }
+    .reviewCard{
+      min-width: calc((100% - 24px) / 3);
+      background: rgba(28,18,54,.06);
+      border: 1px solid rgba(28,18,54,.12);
+      border-radius: var(--radius2);
+      padding: 14px;
+      box-shadow: 0 12px 26px rgba(109,40,217,.10);
+      display:flex;
+      flex-direction: column;
+      gap: 10px;
+      height: 100%;
+    }
+    .stars{
+      letter-spacing: 1px;
+      color: rgba(28,18,54,.92);
+      font-weight: 800;
+      font-size: 13px;
+    }
+    .reviewText{
+      color: rgba(28,18,54,.82);
+      font-size: 13px;
+      margin: 0;
+    }
+    .reviewMeta{
+      display:flex;
+      align-items:center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-top: auto;
+      color: rgba(28,18,54,.72);
+      font-size: 12px;
+      border-top: 1px solid rgba(28,18,54,.10);
+      padding-top: 10px;
+    }
+
+    /* =========================
+        GALLERY GRID
+    ========================== */
+    .galleryGrid{
+      display:grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 10px;
+    }
+    .gItem{
+      border-radius: var(--r-md);
+      overflow:hidden;
+      border: 1px solid var(--line);
+      background: var(--paper-2);
+      display:flex;
+      flex-direction:column;
+    }
+    .gItem .gPhoto{
+      aspect-ratio: 3 / 4;
+      width:100%;
+      overflow:hidden;
+      background: var(--paper-2);
+    }
+    .gItem img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .gItem figcaption{
+      padding: 7px 9px;
+      font-size: 11.5px;
+      color: var(--ink-55);
+      border-top: 1px solid var(--line);
+    }
+    .img-broken .gPhoto{ position:relative; }
+    .img-broken .gPhoto img{ opacity:0; }
+    .img-broken .gPhoto::after{
+      content: "Gagal dimuat";
+      position:absolute; inset:0;
+      display:flex; align-items:center; justify-content:center;
+      text-align:center; padding: 8px;
+      font-size: 11px; font-weight:700; color: var(--ink-55);
+    }
+    .notionCover.img-broken{ background: var(--paper-2); }
+    .notionCover.img-broken img{ opacity:0; }
+    /* =========================
+        FAQ STYLE
+    ========================== */
+    .faqGrid{
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .faqItem{
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 18px;
+      transition: .2s ease;
+    }
+    .faqItem:hover{
+      background: rgba(28,18,54,.08);
+      border-color: rgba(28,18,54,.20);
+    }
+    .faqItem h3{
+      margin: 0 0 8px;
+      font-size: 15px;
+      color: var(--primary2);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .faqItem h3::before{
+      content: "Q";
+      background: var(--primary);
+      color: white;
+      width: 24px;
+      height: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .faqItem p{
+      margin: 0;
+      font-size: 13.5px;
+      color: rgba(28,18,54,.80);
+      line-height: 1.5;
+    }
+
+    /* =========================
+        FOOTER
+    ========================== */
+    footer{
+      padding: 26px 0 34px;
+      color: rgba(28,18,54,.65);
+      font-size: 12px;
+    }
+    .footerCard{
+      padding: 16px;
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items:center;
+      gap: 10px;
+    }
+    .social{
+      display:flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .social a{
+      padding: 10px 12px;
+      border-radius: 999px;
+      border: 1px solid rgba(28,18,54,.12);
+      background: rgba(28,18,54,.05);
+      font-weight: 800;
+      font-size: 12px;
+      color: rgba(28,18,54,.82);
+      transition: .2s ease;
+    }
+    .social a:hover{
+      transform: translateY(-1px);
+      background: rgba(28,18,54,.07);
+      border-color: rgba(28,18,54,.18);
+    }
+
+    /* =========================
+        RESPONSIVE
+    ========================== */
+    @media (max-width: 980px){
+      .heroGrid{ grid-template-columns: 1fr; }
+      .navlinks{ display:none; }
+      .burger{ display:inline-block; }
+      .reviewCard{ min-width: calc((100% - 12px) / 2); }
+      .gItem{ height: 200px; }
+      .g1, .g2{ grid-column: span 12; }
+      .g3, .g4, .g5{ grid-column: span 12; }
+    }
+    @media (max-width: 560px){
+      .navcta{ min-width: auto; }
+      .brand{ min-width: auto; }
+      .heroLeft{ padding: 18px; }
+      .heroRight{ padding: 14px; }
+      .reviewCard{ min-width: 100%; }
+      .musicTable th:nth-child(1), .musicTable td:nth-child(1){ width: 38%; }
+      .gItem{ height: 190px; }
+    }
+
+    @media (prefers-reduced-motion: reduce){
+      *{ scroll-behavior: auto !important; transition: none !important; animation: none !important; }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://jasunmarju.id/#website",
+        "name": "Jasun Marju • Portofolio Resmi",
+        "url": "https://jasunmarju.id/",
+        "inLanguage": "id-ID",
+        "description": "Portofolio resmi Jasun Marju: profil lengkap, karier, lagu populer, kolaborasi, galeri foto, review penggemar, dan pemutar Spotify.",
+        "publisher": { "@id": "https://jasunmarju.id/#organization" },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://jasunmarju.id/?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://jasunmarju.id/#organization",
+        "name": "jasunmarju.id",
+        "url": "https://jasunmarju.id/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://cdn.warna-cloudinary.org/mrgold/hasd000asd-532945.png",
+          "width": 512,
+          "height": 512
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://jasunmarju.id/#webpage",
+        "url": "https://jasunmarju.id/",
+        "name": "Jasun Marju | Portofolio Resmi",
+        "inLanguage": "id-ID",
+        "isPartOf": { "@id": "https://jasunmarju.id/#website" },
+        "about": { "@id": "https://jasunmarju.id/#person" },
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://jasunmarju.id/asset/jasun1.jpg",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://jasunmarju.id/#person",
+        "name": "Denny Caknan",
+        "alternateName": ["Jasun Dwi Irawan", "Jasun Dwi Irawan"],
+        "url": "https://jasunmarju.vercel.app/",
+        "image": "https://jasunmarju.id/asset/jasun1.jpg",
+        "birthDate": "1993-12-10",
+        "birthPlace": { "@type": "Place", "name": "Wonogiri, Jawa Tengah, Indonesia" },
+        "nationality": "Indonesia",
+        "jobTitle": ["Penyanyi"],
+        "description": "Jasun Dwi Irawan dikenal dengan nama panggung Jasun Marju adalah penyanyi dan pencipta lagu Pop Jawa dan Koplo. Ia mulai dikenal luas pada 2019 lewat lagu 'Kartonyono Medot Janji'.",
+        "knowsAbout": ["Pop Jawa", "Dangdut Koplo", "Campursari Modern", "Musik Jawa"],
+        "genre": ["Pop Jawa", "Dangdut Koplo", "Campursari Modern"],
+        "sameAs": [
+          "https://open.spotify.com/artist/3Gr3opnAGpJiTowsTyJFWG",
+          "https://www.youtube.com/channel/UC0k3T5AJYvKnuc52bB7rJTA",
+          "https://www.instagram.com/jasun_marju/"
+        ],
+        "affiliation": { "@type": "Organization", "name": "DC Production (independen)" },
+        "spouse": { "@type": "Person", "name": "" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://jasunmarju.id/#breadcrumbs",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Beranda", "item": "https://jasunmarju.id/" }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <div class="nav">
+        <a class="brand" href="#beranda" aria-label="Jasun Marju • Portofolio">
+          <div class="title">
+            <strong>Portofolio Jasun Marju</strong>
+          </div>
+        </a>
+
+        <nav class="navlinks" aria-label="Navigasi utama">
+          <a href="#profil">Profil</a>
+          <a href="#karier">Karier</a>
+          <a href="#lagu">Lagu Populer</a>
+          <a href="#kolaborasi">Kolaborasi</a>
+          <a href="#galeri">Galeri</a>
+        </nav>
+
+        <div class="navcta">
+          <a class="btn" href="#review">Lihat Review</a>
+          <a class="btn primary" href="#musik">Dengarkan di Spotify</a>
+          <button class="burger" id="burger" type="button" aria-label="Buka menu mobile" aria-expanded="false" aria-controls="mobileMenu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="mobileMenu" id="mobileMenu" aria-label="Menu mobile">
+        <div class="grid">
+          <a href="#profil">Profil</a>
+          <a href="#karier">Karier</a>
+          <a href="#lagu">Lagu Populer</a>
+          <a href="#kolaborasi">Kolaborasi</a>
+          <a href="#galeri">Galeri</a>
+          <a href="#footer">Sosial</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="beranda" class="hero">
+    <div class="container">
+      <div class="heroGrid">
+        <div class="card heroLeft">
+          <div class="glow" aria-hidden="true"></div>
+
+          <div class="heroTop">
+            <div class="heroTitle">
+              <h1>Jasun Marju</h1>
+              <p>
+                <strong>Jasun Dwi Irawan</strong> dikenal dengan nama panggung <strong>Jasun Marju</strong> (lahir 03 Januari 2001)
+                adalah seorang penyanyi dan pencipta lagu <strong>Pop Jawa</strong> dan <strong>Dangdut Koplo</strong> berkebangsaan Indonesia.
+                Ia mulai dikenal berkat lagu <strong>"Najis"</strong> yang meledak pada <strong>2024</strong>.
+              </p>
+            </div>
+          </div>
+
+          <div class="badges" role="list" aria-label="Highlight">
+            <div class="badge" role="listitem"><span class="dot"></span> Pop Jawa • Koplo • Campursari Modern</div>
+            <div class="badge" role="listitem"><span class="dot"></span> Tahun aktif: 2023 – sekarang</div>
+            <div class="badge" role="listitem"><span class="dot"></span> Label/Manajemen: DC Production</div>
+            <div class="badge" role="listitem"><span class="dot"></span> Bahasa lagu: Jawa (dengan sisipan Indonesia)</div>
+          </div>
+
+          <div class="heroActions">
+            <a class="btn primary" href="#musik">▶ Putar Lagu (Spotify)</a>
+            <a class="btn" href="#galeri">Lihat Galeri Foto</a>
+            <a class="btn" href="#profil">Baca Profil Lengkap</a>
+          </div>
+
+          <p style="margin:14px 0 0;color:rgba(28,18,54,.70);font-size:13px;max-width:72ch;">
+            Sebelum masuk industri musik, Jasun disebut pernah bekerja sebagai kuli selama sekitar lima tahun. Dukungan keluarga, terutama ayahnya yang bekerja sebagai sopir taksi di Jakarta, menjadi salah satu faktor yang membantunya terus mengejar dunia musik.
+          </p>
+        </div>
+
+        <aside class="card heroRight" aria-label="Slider Foto">
+          <div class="slider" id="heroSlider">
+            <img id="heroSlideImg"
+                 src="asset/jasun1.jpg"
+                 alt="Foto Jasun Marju - Slide"
+                 loading="eager"
+                 decoding="async"
+                 onerror="this.closest('.slider')?.classList.add('img-broken'); console.error('Gagal memuat foto:', this.src);" />
+          </div>
+
+          <div class="card" style="padding:14px;border-radius:var(--radius2);background:rgba(28,18,54,.05);border:1px solid rgba(28,18,54,.12);">
+            <div style="display:flex;align-items:center;justify-content:space-between;gap:10px;">
+              <div>
+                <div style="font-weight:900;letter-spacing:-.2px;">Portofolio Profesional</div>
+                <div style="font-size:12px;color:rgba(28,18,54,.70);margin-top:2px;">
+                  Profil • Karier • Lagu • Kolaborasi • Review • Galeri
+                </div>
+              </div>
+              <a class="btn" href="#musik" style="padding:10px 12px;">Mulai</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <section id="galeri">
+    <div class="container">
+      <div class="sectionHead">
+        <div><h2>Galeri Foto</h2></div>
+      </div>
+
+      <div class="galleryGrid">
+        <div class="gItem g1"><img src="asset/jasun1.jpg" alt="Galeri Foto 1" loading="lazy" decoding="async" onerror="this.closest('.gItem')?.classList.add('img-broken'); console.error('Gagal memuat foto:', this.src);"></div>
+        <div class="gItem g2"><img src="asset/jasun2.jpg" alt="Galeri Foto 2" loading="lazy" decoding="async" onerror="this.closest('.gItem')?.classList.add('img-broken'); console.error('Gagal memuat foto:', this.src);"></div>
+        <div class="gItem g3"><img src="asset/jasun3.jpg" alt="Galeri Foto 3" loading="lazy" decoding="async" onerror="this.closest('.gItem')?.classList.add('img-broken'); console.error('Gagal memuat foto:', this.src);"></div>
+        <div class="gItem g4"><img src="asset/jasun4.jpg" alt="Galeri Foto 4" loading="lazy" decoding="async" onerror="this.closest('.gItem')?.classList.add('img-broken'); console.error('Gagal memuat foto:', this.src);"></div>
+        <div class="gItem g5"><img src="asset/jasun5.jpg" alt="Galeri Foto 5" loading="lazy" decoding="async" onerror="this.closest('.gItem')?.classList.add('img-broken'); console.error('Gagal memuat foto:', this.src);"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="musik">
+    <div class="container">
+      <div class="sectionHead">
+        <div>
+          <h2>Dengarkan Lagu di Spotify</h2>
+          <p>Berikut <strong>tabel musik</strong> dengan pemutar Spotify yang bisa langsung diputar.</p>
+        </div>
+      </div>
+
+      <div class="card musicWrap">
+        <table class="musicTable" aria-label="Tabel Musik Spotify">
+          <thead>
+            <tr><th>Judul Lagu</th><th>Spotify Player</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="songTitle">Najis</td>
+              <td><iframe class="spotifyFrame" src="https://open.spotify.com/embed/track/15CbY8ZcAyBVXwTfzRN6Aj?utm_source=generator&si=4656feb8c53249a4" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Spotify - Kartonyono Medot Janji"></iframe></td>
+            </tr>
+            <tr>
+              <td class="songTitle">Tanpo Tresnamu (feat. Eri Pras)</td>
+              <td><iframe class="spotifyFrame" src="https://open.spotify.com/embed/track/39klWgHPzr8BAHx8C07su3?utm_source=generator&si=e799d6c3fc7f4728" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Spotify - Kartonyono Medot Janji"></iframe></td>
+            </tr>
+            <tr>
+              <td class="songTitle">Dewasa</td>
+              <td><iframe class="spotifyFrame" src="https://open.spotify.com/embed/track/0Gu5j1p4lSAQ9o5oo0q1Wk?utm_source=generator&si=8b9934dfa7af48bd" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Spotify - Los Dol"></iframe></td>
+            </tr>
+            <tr>
+              <td class="songTitle">Denok (feat. Dinda Teratu)</td>
+              <td><iframe class="spotifyFrame" src="https://open.spotify.com/embed/track/1TvEFulBHPtZYhTuMS2hfV?utm_source=generator&si=15e2d1f27add45be" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Spotify - Sugeng Dalu"></iframe></td>
+            </tr>
+            <tr>
+              <td class="songTitle">Raiso Ngapusi 2 (feat. Dinda Teratu)</td>
+              <td><iframe class="spotifyFrame" src="https://open.spotify.com/embed/track/0o7XA8aE17XIIaMuKuB17b?utm_source=generator&si=fb88c7d35a514405" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Spotify - Widodari"></iframe></td>
+            </tr>
+            <tr>
+              <td class="songTitle">Pelampiasan 2 (feat. Restianade)</td>
+              <td><iframe class="spotifyFrame" src="https://open.spotify.com/embed/track/76SEJnqnGWPiHTH4mwB3Sw?utm_source=generator&si=ce6b3a0cfb4a432f" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Spotify - Satru"></iframe></td>
+            </tr>
+            <tr>
+              <td class="songTitle">Pamit Rabi (feat. Laila Ayu)</td>
+              <td><iframe class="spotifyFrame" src="https://open.spotify.com/embed/track/5P4cNawN050sD3EOhOy681?utm_source=generator&si=f72f503ac51c4b2b" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Spotify - Satru 2"></iframe></td>
+            </tr>
+            <tr>
+              <td class="songTitle">Tak Tunggu Balimu (feat. Dinda Teratu)</td>
+              <td><iframe class="spotifyFrame" src="https://open.spotify.com/embed/track/2xOAMjnPWTSYodGdBFjaRi?utm_source=generator&si=ed0fff78479b41e7" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Spotify - Ojo Dibandingke"></iframe></td>
+            </tr>
+            <tr>
+              <td class="songTitle">Tunggal Eka (feat. Dinda Teratu)</td>
+              <td><iframe class="spotifyFrame" src="https://open.spotify.com/embed/track/5hQ43RY7BQhMkMJxkhwc2H?utm_source=generator&si=3f3c25958a6e4944" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Spotify - Kalih Welasku"></iframe></td>
+            </tr>
+            <tr>
+              <td class="songTitle">Kasunyatan (feat. Ririn DA)</td>
+              <td><iframe class="spotifyFrame" src="https://open.spotify.com/embed/track/6izGyKKbJzDzXOvh99S3Vi?utm_source=generator&si=76d02b06d9284dec" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Spotify - Pingal"></iframe></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div style="margin-top:12px;color:rgba(28,18,54,.70);font-size:12px;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="profil">
+    <div class="container">
+      <div class="sectionHead"><div><h2>Profil Singkat</h2></div></div>
+
+      <div class="grid2">
+        <div class="card contentCard">
+          <h3>Data Pribadi</h3>
+          <ul>
+            <li><strong>Nama lengkap:</strong> Jasun Dwi Irawan</li>
+            <li><strong>Nama panggung:</strong> Jasun Marju</li>
+            <li><strong>Tempat lahir:</strong> Wonogiri, Jawa Tengah, Indonesia</li>
+            <li><strong>Tanggal lahir:</strong> 03 Januari 2001</li>
+            <li><strong>Profesi:</strong> Penyanyi, penulis lagu</li>
+            <li><strong>Genre:</strong> Pop Jawa, Dangdut Koplo, Campursari Modern</li>
+            <li><strong>Bahasa lagu:</strong> Jawa</li>
+            <li><strong>Tahun aktif:</strong> 2023 – sekarang</li>
+            <li><strong>Label/Manajemen:</strong> DC Production </li>
+          </ul>
+        </div>
+
+        <div class="card contentCard">
+          <h3>Gaya Musik & Ciri Khas</h3>
+          <p>Jasun Marju dikenal dengan:</p>
+          <ul>
+            <li>Lirik berbahasa Jawa, tema cinta, hubungan, kehilangan, dan kehidupan sehari-hari menjadi bagian kuat dari identitas musiknya.</li>
+            <li>Kekuatan Jasun lebih terasa pada delivery dan penghayatan lirik daripada sekadar menunjukkan teknik vokal.</li>
+            <li>Perpaduan pop, koplo, dan sentuhan modern</li>
+            <li>Karakter vokal lembut namun penuh emosi</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="karier">
+    <div class="container">
+      <div class="sectionHead">
+        <div>
+          <h2>Perjalanan Karier</h2>
+          <p>Perjalanan dari jalur independen hingga menjadi ikon Pop Jawa modern.</p>
+        </div>
+      </div>
+
+      <div class="card contentCard">
+        <h3>Ringkasan Perjalanan</h3>
+        <p>
+	  Jasun Marju merupakan penyanyi asal <strong>Kepyar, Purwantoro, Wonogiri, Jawa Tengah.</strong> 
+	  Sebelum dikenal sebagai penyanyi, perjalanan hidupnya cukup sederhana. Ia pernah bekerja 
+	  sebagai kuli selama beberapa tahun sambil tetap memiliki keinginan untuk berkembang di dunia musik.
+        </p>
+	<p>
+	  Jasun kemudian mulai memperkenalkan dirinya melalui media sosial, terutama TikTok, dengan nama <strong>Jasun Biber.</strong> 
+	  Lewat berbagai video bernyanyi dan cover lagu, kemampuan vokalnya mulai mendapatkan perhatian. 
+	  Perjalanannya semakin terbuka ketika ia mengikuti <strong>Kontes Ambyar Indonesia 2023</strong> dan berhasil masuk hingga <Strong>Top 6.</strong>
+	</p>
+	<p>
+	  Dari aktivitasnya di media sosial tersebut, Denny Caknan mulai memperhatikan Jasun. 
+	  Setelah mengenalnya dan melihat potensi yang dimilikinya, Denny kemudian memberikan kesempatan kepada Jasun untuk berkembang lebih serius di industri musik. 
+	  Pada 2025, Jasun diperkenalkan sebagai talent pertama DC Production yang diproduseri oleh Denny Caknan.
+	</p>
+	<p>
+	  Pada momen tersebut, ia juga mulai menggunakan nama panggung Jasun Marju, menggantikan nama sebelumnya, Jasun Biber. 
+	  Nama Marju diambil dari nama ayahnya sebagai bentuk penghormatan kepada sang ayah.
+	</p>
+	<p>
+	 Sejak bergabung dengan DC Production, perjalanan musik Jasun semakin berkembang. 
+	 Ia mulai merilis berbagai lagu dan melakukan kolaborasi dengan sejumlah penyanyi Pop Jawa seperti Tiara Amora dan Dinda Teratu. 
+	 Lagu-lagunya membawa karakter Pop Jawa dan dangdut modern, dengan tema yang banyak berkaitan dengan cinta, kehilangan, hubungan, dan kehidupan sehari-hari.
+	</p>
+	<p>
+	  Dari seorang pemuda daerah yang sebelumnya bekerja sebagai kuli dan bernyanyi melalui media sosial, Jasun kemudian berkembang menjadi penyanyi muda dalam industri musik Jawa yang mendapatkan dukungan langsung dari Denny Caknan. 
+	  Perjalanannya bisa dibilang menjadi contoh bagaimana media sosial, kesempatan, dan konsistensi dalam bermusik dapat membuka jalan menuju industri musik profesional.
+	</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="lagu">
+    <div class="container">
+      <div class="sectionHead"><div><h2>Lagu-Lagu Populer</h2></div></div>
+
+      <div class="grid2">
+        <div class="card contentCard">
+          <h3>Daftar Lagu Populer</h3>
+          <ul>
+            <li>Najis</li>
+            <li>Tanpo Tresnamu (feat. Eri pras)</li>
+            <li>Dewasa</li>
+            <li>Denok (feat. Dinda Teratu)</li>
+            <li>Raiso Ngapusi 2 (feat. Dinda Teratu)</li>
+            <li>Pelampiasan 2 (feat. Restianade)</li>
+            <li>Pamit Rabi (feat. Laila Ayu)</li>
+            <li>Tak Tunggu Balimu (feat. Dinda Teratu)</li>
+            <li>Tunggal Eka (feat. Dinda Teratu)</li>
+            <li>Kasunyatan (feat. Ririn DA)</li>
+          </ul>
+          <p style="margin-top:10px;">Sebagian besar lagunya menembus puluhan hingga ratusan juta views di YouTube.</p>
+        </div>
+
+        <div class="card contentCard" id="kolaborasi">
+          <h3>Kolaborasi Penting</h3>
+          <p>Jasun Marju aktif berkolaborasi dengan berbagai penyanyi, antara lain:</p>
+          <ul>
+            <li>Denny Caknan</li>
+            <li>Eri Pras</li>
+            <li>Aftershine</li>
+            <li>Dinda Teratu</li>
+            <li>Tiara Amora</li>
+            <li>Nayla Fardila</li>
+	    <li>Laila Ayu</li>
+	    <li>Ponidi</li>
+	    <li>Niken Salindry</li>
+          </ul>
+          <p style="margin-top:10px;">Kolaborasi ini memperluas jangkauan Pop Jawa ke generasi muda dan pasar nasional.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <div class="container">
+      <div class="card footerCard">
+        <div>
+          <div style="font-weight:900;color:rgba(28,18,54,.85);">Jasun Marju • Portofolio Resmi</div>
+          <div style="margin-top:4px;">© <span id="year"></span> jasun marju portofolio.</div>
+        </div>
+
+        <div class="social" aria-label="Media Sosial & Platform Digital">
+          <a href="https://www.bing.com/ck/a?!&&p=4fd6f59c214b9d2ef9d53fc8c3be7fe0db373cd7732d2eb29782b65dc2a4ebaaJmltdHM9MTc4ODgyNTYwMA&ptn=3&ver=2&hsh=4&fclid=1c35606b-f469-621d-3650-7676f59463a4&psq=youtube+jasun+marju&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20vQGphc3VubWFyanVvZmZpY2lhbC92aWRlb3M" target="_blank" rel="noopener noreferrer">YouTube</a>
+          <a href="https://open.spotify.com/artist/4hnw8wbCSkC1eAa7PnLKBY?si=HU7jm0W4QeaaQrJRS5RDIA" target="_blank" rel="noopener noreferrer">Spotify</a>
+          <a href="https://www.instagram.com/jasun_marju/" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="https://www.tiktok.com/@jasunmarju58" target="_blank" rel="noopener noreferrer">TikTok</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function safeNumber(v, fallback){
+      const n = parseFloat(v);
+      return Number.isFinite(n) ? n : fallback;
+    }
+
+    // Mobile menu toggle
+    const burger = document.getElementById('burger');
+    const mobileMenu = document.getElementById('mobileMenu');
+
+    function closeMobileMenu(){
+      if(!mobileMenu || !burger) return;
+      mobileMenu.classList.remove('is-open');
+      burger.setAttribute('aria-expanded', 'false');
+    }
+
+    burger && burger.addEventListener('click', () => {
+      if(!mobileMenu) return;
+      const willOpen = !mobileMenu.classList.contains('is-open');
+      mobileMenu.classList.toggle('is-open', willOpen);
+      burger.setAttribute('aria-expanded', String(willOpen));
+    });
+
+    mobileMenu && mobileMenu.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', closeMobileMenu);
+    });
+
+    document.addEventListener('click', (e) => {
+      if(!mobileMenu || !burger) return;
+      const target = e.target;
+      const clickedInside = mobileMenu.contains(target) || burger.contains(target);
+      if(!clickedInside) closeMobileMenu();
+    });
+
+    // Hero Slider
+    const heroImgs = [
+      "asset/jasun1.jpg",
+      "asset/jasun2.jpg",
+      "asset/jasun3.jpg",
+      "asset/jasun4.jpg",
+      "asset/jasun5.jpg"
+    ];
+    const heroImgEl = document.getElementById('heroSlideImg');
+    let heroIndex = 0;
+
+    function changeHeroSlide(){
+      if(!heroImgEl) return;
+      heroImgEl.style.opacity = 0;
+      setTimeout(() => {
+        heroIndex = (heroIndex + 1) % heroImgs.length;
+        heroImgEl.src = heroImgs[heroIndex];
+        heroImgEl.style.opacity = 1;
+      }, 420);
+    }
+
+    const reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if(!reduceMotion){
+      setInterval(changeHeroSlide, 5200);
+    }
+
+    // Review Slider
+    const track = document.getElementById('reviewTrack');
+    const cards = track ? Array.from(track.children) : [];
+    let step = 0;
+
+    function visibleCount(){
+      const w = window.innerWidth;
+      if (w <= 560) return 1;
+      if (w <= 980) return 2;
+      return 3;
+    }
+
+    function slideReviews(){
+      if(!track || cards.length === 0) return;
+      const perView = visibleCount();
+      const maxStep = Math.max(0, cards.length - perView);
+      step = (step + 1) > maxStep ? 0 : (step + 1);
+
+      const card = cards[0];
+      const style = window.getComputedStyle(track);
+      const gap = safeNumber(style.gap, safeNumber(style.columnGap, 12)) || 12;
+      const cardW = card.getBoundingClientRect().width || 0;
+
+      const x = (cardW + gap) * step;
+      track.style.transform = `translateX(${-x}px)`;
+    }
+
+    if(!reduceMotion){
+      setInterval(slideReviews, 6500);
+    }
+
+    window.addEventListener('resize', () => {
+      step = 0;
+      if(track) track.style.transform = 'translateX(0px)';
+    });
+
+    // Year
+    const yearEl = document.getElementById('year');
+    if(yearEl) yearEl.textContent = new Date().getFullYear();
+  </script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"8af3c32d7d8c46e48978eea99118533f","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>
